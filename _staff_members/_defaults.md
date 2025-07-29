@@ -1,7 +1,5 @@
 ---
-name:
-position:
-image_path:
-twitter:
-blurb:
+name: 
+position: 
+image_path: 
 ---
