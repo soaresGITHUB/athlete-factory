@@ -157,5 +157,21 @@
         </div>
       </section>
     </main>
+    <script>
+      const siteHeader = document.querySelector(".site-header");
+      let lastScrollY = window.scrollY;
+
+      window.addEventListener(
+        "scroll",
+        () => {
+          const currentScrollY = window.scrollY;
+          const isMovingDown = currentScrollY > lastScrollY;
+
+          siteHeader.classList.toggle("is-hidden", isMovingDown && currentScrollY > 90);
+          lastScrollY = currentScrollY;
+        },
+        { passive: true },
+      );
+    </script>
   </body>
 </html>

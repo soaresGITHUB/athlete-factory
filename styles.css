@@ -57,6 +57,16 @@ img {
   min-height: 76px;
   margin: 0 auto;
   padding: 12px 0;
+  transition:
+    transform 240ms ease,
+    opacity 240ms ease;
+  will-change: transform, opacity;
+}
+
+.site-header.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-110%);
 }
 
 .brand {
@@ -491,7 +501,6 @@ h3 {
 
 @media (max-width: 900px) {
   .site-header {
-    position: absolute;
     align-items: flex-start;
   }
 

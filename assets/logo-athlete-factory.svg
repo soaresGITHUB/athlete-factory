@@ -25,8 +25,6 @@
   <g>
     <path fill="#ffffff" d="M114 333 205 148h54l91 185h-62l-17-38h-83l-17 38zm94-88h43l-21-49z"/>
     <path fill="#e12727" d="M245 148h159l-26 51H269zm43 76h75l-23 46h-75z"/>
-    <path fill="#ffffff" d="M178 361h16l8 26h1l9-26h14l9 26h1l8-26h16l-16 43h-16l-9-25h-1l-9 25h-16z"/>
-    <path fill="#ffffff" d="M267 361h47v11h-31v6h28v10h-28v6h32v10h-48z"/>
   </g>
   <text x="256" y="366" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing=".5">ATHLETE FACTORY</text>
 </svg>
