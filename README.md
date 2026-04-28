@@ -4,13 +4,14 @@ Landing page estatica para divulgar a Athlete Factory e a componente AF Run Club
 
 ## GitHub Pages
 
-Depois do push, ativa a pagina no GitHub:
+Este repositorio inclui um workflow em `.github/workflows/pages.yml` para publicar a pagina no GitHub Pages a partir da branch `main`.
+
+Se o GitHub pedir ativacao manual:
 
 1. Abre `Settings` no repositorio.
 2. Entra em `Pages`.
-3. Em `Build and deployment`, escolhe `Deploy from a branch`.
-4. Seleciona a branch `main` e a pasta `/ (root)`.
-5. Guarda.
+3. Em `Build and deployment`, escolhe `GitHub Actions`.
+4. Guarda e corre o workflow `Deploy GitHub Pages`, se necessario.
 
 URL esperado:
 
