@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Athlete Factory</title>
+  <desc id="desc">Logotipo circular preto, vermelho e branco da Athlete Factory.</desc>
+  <rect width="512" height="512" fill="#050607"/>
+  <g fill="#8f1616">
+    <path d="M239 15h34v62h-34z"/>
+    <path d="M239 435h34v62h-34z"/>
+    <path d="M15 239h62v34H15z"/>
+    <path d="M435 239h62v34h-62z"/>
+    <path d="m71 48 24-24 44 44-24 24z"/>
+    <path d="m373 420 24-24 44 44-24 24z"/>
+    <path d="m420 115 44-44 24 24-44 44z"/>
+    <path d="m24 417 44-44 24 24-44 44z"/>
+    <path d="m139 20 32-12 22 58-32 12z"/>
+    <path d="m319 446 32-12 22 58-32 12z"/>
+    <path d="m8 341 58-22 12 32-58 22z"/>
+    <path d="m434 161 58-22 12 32-58 22z"/>
+    <path d="m319 66 22-58 32 12-22 58z"/>
+    <path d="m139 492 22-58 32 12-22 58z"/>
+    <path d="m66 193-58-22 12-32 58 22z"/>
+    <path d="m446 351-58-22 12-32 58 22z"/>
+  </g>
+  <circle cx="256" cy="256" r="202" fill="none" stroke="#8f1616" stroke-width="34"/>
+  <circle cx="256" cy="256" r="163" fill="#050607"/>
+  <g>
+    <path fill="#ffffff" d="M114 333 205 148h54l91 185h-62l-17-38h-83l-17 38zm94-88h43l-21-49z"/>
+    <path fill="#e12727" d="M245 148h159l-26 51H269zm43 76h75l-23 46h-75z"/>
+    <path fill="#ffffff" d="M178 361h16l8 26h1l9-26h14l9 26h1l8-26h16l-16 43h-16l-9-25h-1l-9 25h-16z"/>
+    <path fill="#ffffff" d="M267 361h47v11h-31v6h28v10h-28v6h32v10h-48z"/>
+  </g>
+  <text x="256" y="366" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing=".5">ATHLETE FACTORY</text>
+</svg>
