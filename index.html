@@ -8,6 +8,7 @@
       content="Athlete Factory: treino de performance para futebolistas, corredores e atletas que querem competir melhor."
     />
     <title>Athlete Factory | Treino de performance</title>
+    <link rel="preload" href="assets/bootcamp/bootcamp-duel.jpg" as="image" />
     <link rel="preload" href="assets/logo-athlete-factory.svg" as="image" />
     <link rel="preload" href="assets/logo-af-run-club.svg" as="image" />
     <link rel="stylesheet" href="styles.css" />
@@ -19,7 +20,9 @@
         <span>Athlete Factory</span>
       </a>
       <nav class="nav-links" aria-label="Secções">
+        <a href="#sobre">Sobre</a>
         <a href="#treino">Treino</a>
+        <a href="#bootcamp">Bootcamp</a>
         <a href="#run-club">AF Run Club</a>
         <a href="#contacto">Contacto</a>
       </nav>
@@ -27,6 +30,11 @@
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/bootcamp/bootcamp-duel.jpg"
+          alt="Jogadores de futebol em duelo durante um treino Athlete Factory"
+        />
         <div class="hero-bg" aria-hidden="true">
           <span class="track-line line-one"></span>
           <span class="track-line line-two"></span>
@@ -34,58 +42,128 @@
         </div>
         <div class="hero-content">
           <img class="hero-logo" src="assets/logo-athlete-factory.svg" alt="Athlete Factory" />
-          <p class="eyebrow">Treino de performance para atletas</p>
-          <h1 id="hero-title">Athlete Factory</h1>
+          <p class="eyebrow">Athlete Factory</p>
+          <h1 id="hero-title">Desbloqueamos o potencial dos atletas</h1>
           <p class="hero-copy">
-            Preparação física, velocidade, força e resistência para futebolistas, corredores e atletas
-            que querem chegar ao jogo com mais capacidade para decidir.
+            Preparação física para atletas. Treinos individuais e em grupos reduzidos para jogadores
+            e jogadoras de futebol com o objetivo de desenvolver as suas capacidades técnico-táticas,
+            físicas e psicológicas.
           </p>
           <div class="hero-actions" aria-label="Ações principais">
             <a class="button button-primary" href="#contacto">Quero treinar</a>
-            <a class="button button-secondary" href="#run-club">Ver Run Club</a>
+            <a class="button button-secondary" href="#sobre">Conhecer a base</a>
           </div>
         </div>
         <aside class="hero-panel" aria-label="Foco do trabalho">
           <div>
-            <strong>Futebol</strong>
-            <span>arranque, agilidade, mudança de direção</span>
+            <strong>Técnico-Tático</strong>
+            <span>decisão, leitura de jogo e execução em contexto</span>
           </div>
           <div>
-            <strong>Performance</strong>
-            <span>força, mobilidade, resistência e prevenção</span>
+            <strong>Físico</strong>
+            <span>força, velocidade, resistência e disponibilidade</span>
           </div>
           <div>
-            <strong>Run Club</strong>
-            <span>corrida em grupo com estrutura e evolução</span>
+            <strong>Psicológico</strong>
+            <span>confiança, foco e segurança dentro e fora de campo</span>
           </div>
         </aside>
       </section>
 
+      <section id="sobre" class="section about-section" aria-labelledby="about-title">
+        <div class="about-copy">
+          <p class="eyebrow">Sobre</p>
+          <h2 id="about-title">Todos têm potencial. O trabalho é desbloqueá-lo.</h2>
+          <p>
+            Na Athlete Factory, acreditamos que todos têm potencial, só precisa ser desbloqueado.
+            No futebol debruçamo-nos sobre 3 domínios fundamentais: técnico-tático, físico e
+            psicológico, para promover a evolução integral dos jogadores e jogadoras.
+          </p>
+          <p>
+            Os nossos treinadores são especializados no desenvolvimento individual e coletivo dos
+            atletas. Com esta base somos capazes de desbloquear e potenciar as suas habilidades,
+            tornando-os mais confiantes dentro e fora de campo.
+          </p>
+        </div>
+        <div class="domain-grid" aria-label="Domínios Athlete Factory">
+          <article>
+            <span>01</span>
+            <h3>Técnico-Tático</h3>
+            <p>Melhor decisão, leitura do jogo e transferência para situações reais de competição.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Físico</h3>
+            <p>Capacidade atlética para acelerar, travar, resistir e competir com intensidade.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Psicológico</h3>
+            <p>Confiança, foco e presença para responder melhor aos momentos do jogo.</p>
+          </article>
+        </div>
+      </section>
+
       <section id="treino" class="section training-section" aria-labelledby="training-title">
         <div class="section-heading">
-          <p class="eyebrow">Método</p>
+          <p class="eyebrow">Treino</p>
           <h2 id="training-title">Treino feito para competir melhor</h2>
           <p>
-            Sessões pensadas para atletas que precisam de traduzir o trabalho físico em rendimento real:
-            mais aceleração, melhor controlo corporal e maior disponibilidade durante toda a época.
+            Sessões pensadas para atletas que precisam de traduzir o trabalho em rendimento real:
+            mais qualidade na execução, melhor controlo corporal e maior disponibilidade durante
+            toda a época.
           </p>
         </div>
         <div class="feature-grid">
           <article class="feature-card">
             <span class="feature-mark">01</span>
-            <h3>Preparação física</h3>
-            <p>Força, potência, estabilidade e mobilidade para suportar a exigência do desporto.</p>
+            <h3>Treino individual</h3>
+            <p>Plano ajustado ao atleta, à posição, ao calendário competitivo e aos objetivos.</p>
           </article>
           <article class="feature-card">
             <span class="feature-mark">02</span>
-            <h3>Velocidade e agilidade</h3>
-            <p>Arranque, travagem, reação e mudança de direção com transferência para o campo.</p>
+            <h3>Grupos reduzidos</h3>
+            <p>Contexto competitivo, atenção próxima e evolução com estímulo coletivo.</p>
           </article>
           <article class="feature-card">
             <span class="feature-mark">03</span>
-            <h3>Planos por objetivo</h3>
-            <p>Trabalho ajustado à modalidade, calendário competitivo e ponto de partida do atleta.</p>
+            <h3>Base completa</h3>
+            <p>Trabalho técnico-tático, físico e psicológico alinhado com o jogo.</p>
           </article>
+        </div>
+      </section>
+
+      <section id="bootcamp" class="section bootcamp-section" aria-labelledby="bootcamp-title">
+        <div class="section-heading">
+          <p class="eyebrow">Bootcamp</p>
+          <h2 id="bootcamp-title">Campo, intensidade e feedback real</h2>
+          <p>
+            Momentos de treino onde os atletas trabalham perto dos treinadores, em contexto prático,
+            com exercícios orientados para evolução técnica, física e competitiva.
+          </p>
+        </div>
+        <div class="bootcamp-gallery" aria-label="Imagens de bootcamp Athlete Factory">
+          <figure class="gallery-main">
+            <img
+              src="assets/bootcamp/bootcamp-coaching.jpg"
+              alt="Treinador Athlete Factory a orientar dois jogadores no campo"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="assets/bootcamp/bootcamp-group.jpg"
+              alt="Grupo de jogadoras a realizar exercício de corrida no bootcamp"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="assets/bootcamp/bootcamp-finish.jpg"
+              alt="Jogador a finalizar à baliza durante treino Athlete Factory"
+              loading="lazy"
+            />
+          </figure>
         </div>
       </section>
 
