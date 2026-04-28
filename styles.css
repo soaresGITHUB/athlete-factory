@@ -441,6 +441,22 @@ h3 {
   background: var(--blue);
 }
 
+.run-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 28px;
+  border-bottom: 2px solid var(--blue);
+  color: #e7f7ff;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.run-link:hover,
+.run-link:focus-visible {
+  color: var(--blue);
+}
+
 .proof-section {
   background: #0d0e10;
 }
