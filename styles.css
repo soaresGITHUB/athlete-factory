@@ -194,6 +194,7 @@ img {
 .hero-panel {
   position: relative;
   z-index: 2;
+  min-width: 0;
 }
 
 .hero-logo {
@@ -232,6 +233,7 @@ h1 {
   line-height: 0.88;
   letter-spacing: 0;
   text-transform: uppercase;
+  overflow-wrap: break-word;
 }
 
 h2 {
@@ -240,6 +242,7 @@ h2 {
   line-height: 0.98;
   letter-spacing: 0;
   text-transform: uppercase;
+  overflow-wrap: break-word;
 }
 
 h3 {
@@ -346,6 +349,7 @@ h3 {
 
 .about-copy {
   max-width: 680px;
+  min-width: 0;
 }
 
 .about-copy p:not(.eyebrow) {
@@ -400,6 +404,7 @@ h3 {
 .section-heading {
   max-width: 760px;
   margin-bottom: 34px;
+  min-width: 0;
 }
 
 .section-heading.compact {
@@ -548,6 +553,7 @@ h3 {
 
 .run-copy {
   max-width: 650px;
+  min-width: 0;
 }
 
 .check-list {
@@ -704,11 +710,13 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(2.8rem, 16vw, 4.8rem);
+    font-size: clamp(2.15rem, 8.8vw, 2.3rem);
+    line-height: 0.94;
   }
 
   h2 {
-    font-size: clamp(1.9rem, 12vw, 3rem);
+    font-size: clamp(1.75rem, 10vw, 2.45rem);
+    line-height: 1;
   }
 
   .hero {
